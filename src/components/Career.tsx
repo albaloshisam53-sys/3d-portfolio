@@ -15,58 +15,49 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Business Development Associate</h4>
+                <h5>Skyword Labz</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025-26</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Conducted cold calls, managed social media for 3+ brands, CRM updates and prospect research.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Project Manager</h4>
+                <h5>State of Designs</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Managed end-to-end delivery of a mobile app. Daily standups, sprint management, and client communication between dev team and stakeholders.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Social Media Manager</h4>
+                <h5>Cynical Labs · Ebooknests · Maxcure </h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2022-24</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Managed concurrent social campaigns for 3 clients. Grew average engagement by 35%. Produced 20+ content pieces/week using Canva.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Store Manager</h4>
+                <h5>S Abdul Khaliq</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2020-21</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Managed daily operations, inventory, cash flow, and staff for a retail outlet.
             </p>
           </div>
         </div>
