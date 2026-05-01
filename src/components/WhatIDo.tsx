@@ -2,6 +2,10 @@ import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+const handleClick = (container: HTMLDivElement) => {
+  container.classList.toggle("what-active");
+};
+
 const WhatIDo = () => {
   const containerRef = useRef<(HTMLDivElement | null)[]>([]);
   const setRef = (el: HTMLDivElement | null, index: number) => {
@@ -24,6 +28,7 @@ const WhatIDo = () => {
       });
     };
   }, []);
+
   return (
     <div className="whatIDO">
       <div className="what-box">
@@ -36,19 +41,46 @@ const WhatIDo = () => {
       </div>
       <div className="what-box">
         <div className="what-box-in">
-          <div className="what-border2">
-            <svg width="100%">
-              <line
-                x1="0"
-                y1="0"
-                x2="0"
-                y2="100%"
-                stroke="white"
-                strokeWidth="2"
-                strokeDasharray="7,7"
-              />
-              <line
-                x1="100%"
-                y1="0"
-                x2="100%"
-                y2="100%"
+          <div
+            className="what-container what-noTouch"
+            ref={(el) => setRef(el, 0)}
+          >
+            <div className="what-front">
+              <h3>Web Design</h3>
+              <p>Custom websites that look great and convert visitors</p>
+            </div>
+            <div className="what-back">
+              <p>WordPress, Landing Pages, Business Sites, eCommerce</p>
+            </div>
+          </div>
+          <div
+            className="what-container what-noTouch"
+            ref={(el) => setRef(el, 1)}
+          >
+            <div className="what-front">
+              <h3>UI/UX Design</h3>
+              <p>User-friendly interfaces with modern aesthetics</p>
+            </div>
+            <div className="what-back">
+              <p>Figma, Wireframes, Prototypes, Design Systems</p>
+            </div>
+          </div>
+          <div
+            className="what-container what-noTouch"
+            ref={(el) => setRef(el, 2)}
+          >
+            <div className="what-front">
+              <h3>React Development</h3>
+              <p>Fast, modern web apps built with React.js</p>
+            </div>
+            <div className="what-back">
+              <p>React.js, TypeScript, Node.js, REST APIs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WhatIDo;
