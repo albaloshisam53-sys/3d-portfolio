@@ -192,10 +192,6 @@
   font-family: "Geist", sans-serif;
 }
 
-/* .landing-intro h1 span {
-   font-weight: 200; 
-} */
-
 .landing-info {
   position: absolute;
   right: 50%;
@@ -262,6 +258,47 @@ h2.landing-info-h2 {
   left: 0;
 }
 
+/* ===== BUTTONS ===== */
+.landing-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 10;
+}
+
+.landing-btn {
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: #14b8a6;
+  color: #000;
+  border: 2px solid #14b8a6;
+}
+
+.landing-btn:hover {
+  background-color: transparent;
+  color: #14b8a6;
+}
+
+.landing-btn-outline {
+  background-color: transparent;
+  color: #14b8a6;
+  border: 2px solid #14b8a6;
+}
+
+.landing-btn-outline:hover {
+  background-color: #14b8a6;
+  color: #000;
+}
+
+/* ===== MEDIA QUERIES ===== */
 @media screen and (min-width: 500px) {
   .landing-circle2 {
     display: block;
