@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -7,18 +7,20 @@ const Contact = () => {
       <div className="contact-container">
         <h3>Contact</h3>
         <div className="contact-flex">
+          {/* Left Side: Connect & Education */}
           <div className="contact-box">
             <h4>Connect</h4>
             <p>
               <a
-                href="mailto: msarimbaloch@gmail.com" 
+                href="mailto:msarimbaloch@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                
+                msarimbaloch@gmail.com
               </a>
             </p>
+            
             <h4>Education</h4>
             <p>
               ACCP Computer Studies, Aptech Learning — 2013
@@ -27,9 +29,8 @@ const Contact = () => {
               Intermediate & Matriculation, Excellence Public School — 2009-2011
             </p>
           </div>
-          
-            
 
+          {/* Right Side: Footer Credit */}
           <div className="contact-box">
             <h2>
               Designed and Developed <br /> by <span>Sarim Baloch</span>
@@ -38,9 +39,9 @@ const Contact = () => {
               <MdCopyright /> 2026
             </h5>
           </div>
-        
-      
-    
+        </div>
+      </div>
+    </div>
   );
 };
 
