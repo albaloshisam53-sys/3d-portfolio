@@ -20,7 +20,27 @@ const Contact = () => {
                 msarimbaloch@gmail.com
               </a>
             </p>
-            
+            <p>
+              <a
+                href="https://www.freelancer.com/u/sarimbaloch"
+                target="_blank"
+                rel="noreferrer"
+                data-cursor="disable"
+              >
+                freelancer.com/u/sarimbaloch
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/muhammad-sarim-baloch-4b3362246/"
+                target="_blank"
+                rel="noreferrer"
+                data-cursor="disable"
+              >
+                linkedin.com/in/muhammad-sarim-baloch
+              </a>
+            </p>
+
             <h4>Education</h4>
             <p>
               ACCP Computer Studies, Aptech Learning — 2013
